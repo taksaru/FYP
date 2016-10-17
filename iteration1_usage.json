@@ -1,0 +1,24 @@
+{
+  "text": "#InsecureHBO Season 1 is Certified Fresh at 100% ---&gt; https://t.co/W5DzwmvMS9 🍅 #Tomatometer",
+  "entities": {
+    "symbols": [],
+    "user_mentions": [],
+    "hashtags": [
+      {
+        "indices": [
+          0,
+          12
+        ],
+        "text": "InsecureHBO"
+      },
+      {
+        "indices": [
+          83,
+          95
+        ],
+        "text": "Tomatometer"
+      }
+    ]
+  },
+  "created_at": "Mon Oct 17 05:30:33 +0000 2016",
+}

@@ -1,1 +1,94 @@
-[{"rating": 6.25, "results": 1, "word_count": 16, "negative_words": {}, "positive_words": {"nice": 1}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 13, "negative_words": {}, "positive_words": {}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 17, "negative_words": {}, "positive_words": {}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 19, "negative_words": {}, "positive_words": {}, "tag": "obama"}, {"rating": 5.88, "results": 1, "word_count": 17, "negative_words": {}, "positive_words": {"modern": 1}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 17, "negative_words": {"crime": 1}, "positive_words": {"lavish": 1}, "tag": "obama"}, {"rating": -4.35, "results": -1, "word_count": 23, "negative_words": {"war": 1}, "positive_words": {}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 28, "negative_words": {}, "positive_words": {}, "tag": "obama"}, {"rating": 6.25, "results": 1, "word_count": 16, "negative_words": {}, "positive_words": {"valid": 1}, "tag": "obama"}, {"rating": 0.0, "results": 0, "word_count": 1, "negative_words": {}, "positive_words": {}, "tag": "obama"}]
+[
+  {
+    "rating": 6.25,
+    "results": 1,
+    "word_count": 16,
+    "negative_words": {},
+    "positive_words": {
+      "nice": 1
+    },
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 13,
+    "negative_words": {},
+    "positive_words": {},
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 17,
+    "negative_words": {},
+    "positive_words": {},
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 19,
+    "negative_words": {},
+    "positive_words": {},
+    "tag": "obama"
+  },
+  {
+    "rating": 5.88,
+    "results": 1,
+    "word_count": 17,
+    "negative_words": {},
+    "positive_words": {
+      "modern": 1
+    },
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 17,
+    "negative_words": {
+      "crime": 1
+    },
+    "positive_words": {
+      "lavish": 1
+    },
+    "tag": "obama"
+  },
+  {
+    "rating": -4.35,
+    "results": -1,
+    "word_count": 23,
+    "negative_words": {
+      "war": 1
+    },
+    "positive_words": {},
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 28,
+    "negative_words": {},
+    "positive_words": {},
+    "tag": "obama"
+  },
+  {
+    "rating": 6.25,
+    "results": 1,
+    "word_count": 16,
+    "negative_words": {},
+    "positive_words": {
+      "valid": 1
+    },
+    "tag": "obama"
+  },
+  {
+    "rating": 0,
+    "results": 0,
+    "word_count": 1,
+    "negative_words": {},
+    "positive_words": {},
+    "tag": "obama"
+  }
+]

@@ -1,5 +1,9 @@
-CREATE TABLE positive (id, word);
+CREATE TABLE tweets (id, text, p_count, n_count, w_count, retweets, date, time)
 
-CREATE TABLE negative (id, word);
+CREATE TABLE retweets (id, t_id, date, time)
 
-CREATE TABLE function (id, word);
+CREATE TABLE p_words (t_id, word, count)
+
+CREATE TABLE n_words (t_id, word, count)
+
+CREATE TABLE topic (topic, t_id)

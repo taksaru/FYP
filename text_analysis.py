@@ -1,6 +1,6 @@
+from __future__ import division
 import json
 from string import punctuation
-from __future__ import division
 
 pos_file = open('text/positive.txt').read()
 positive_words = pos_file.split('\n')
@@ -62,6 +62,6 @@ def analysis(id, tag, tweet):
     out['negative_words'] = neg
     out['p_count'] = positive_counter
     out['n_count'] = negative_counter
-    out['word_count'] = wc
+    out['w_count'] = wc
     out['rating'] = round((res/wc)*100, 2)
     return out

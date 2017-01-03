@@ -14,9 +14,9 @@ invert_words = pos_file.split('\n')
 en_file = open('text/enhance.txt').read()
 enhance_words = pos_file.split('\n')
 
-def analysis(id, tag, tweet):
+def analysis(tweet):
 
-    out = {'tag': tag, 'id': id, 'text': tweet}
+    out = {'text': tweet}
     neg = {}
     pos = {}
     positive_counter = 0

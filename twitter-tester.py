@@ -19,7 +19,7 @@ ts = TwitterSearch(
     access_token_secret=access_token_secret
 )
 
-tweet_count = 100
+tweet_count = 200
 
 a = []
 

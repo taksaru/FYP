@@ -1,0 +1,15 @@
+{
+  "_id": "tweet_id",
+  "text": "tweet_text",
+  "retweet_count": "0 by default, increment with every occurrence",
+  "retweet_ids": [],
+  "rating": "",
+  "p_count": "count of positive words",
+  "positive_words": {
+    "word": "count"
+  },
+  "n_count": "count of negative words",
+  "negative_words": {
+    "word": "count"
+  }
+}

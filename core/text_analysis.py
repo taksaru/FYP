@@ -1,18 +1,21 @@
 from __future__ import division
 import json
 from string import punctuation
+import
 
-pos_file = open('text/positive.txt').read()
+pos_file = open('../text/positive.txt').read()
 positive_words = pos_file.split('\n')
 
-neg_file = open('text/negative.txt').read()
+neg_file = open('../text/negative.txt').read()
 negative_words = pos_file.split('\n')
 
-inv_file = open('text/invert.txt').read()
+inv_file = open('../text/invert.txt').read()
 invert_words = pos_file.split('\n')
 
-en_file = open('text/enhance.txt').read()
+en_file = open('../text/enhance.txt').read()
 enhance_words = pos_file.split('\n')
+
+punc = list(punctuation)
 
 def analysis(tweet):
 
@@ -25,7 +28,7 @@ def analysis(tweet):
     t = tweet.lower()
     for p in list(punctuation):
         t.replace(p, '')
-
+    t2 = [t.replace(p, '') for p in punc]
     words = t.split(' ')
     wc = len(words)
 

@@ -1,0 +1,10 @@
+STARTUP: mongod
+
+# DB Client
+client = MongoClient()
+
+# DB Test
+db = client.test
+
+# DB Collection
+collection = db.collection

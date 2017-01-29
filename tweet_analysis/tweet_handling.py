@@ -14,9 +14,9 @@ def handle_tweet(tweet):
     output = {}
     tweet_id = tweet['id']
     # tweet['retweeted'] is depreciated
+    # Non retweets have retweeted_status
     if tweet.has_key("retweeted_status"):
-        print 'RETWEET'
-        if tweet_exists(tweet['retweeted_status']['id']):
+        if tweet['retweeted_status']['id'] in topic_ids:
             print 'RETWEET EXISTS'
             add_retweet(tweet)
         else:

@@ -1,0 +1,370 @@
+2017-03-22 10:44:24,484 INFO Beginnning Scan at: 10:44:24
+2017-03-22 10:44:24,485 INFO Scanning tweets for: 2012-10-18 at 10:44:24
+2017-03-22 10:44:52,747 INFO Tweet analysis for 2012-10-18 complete at 10:44:52. 20000 tweets scanned
+2017-03-22 10:44:52,747 INFO Scanning tweets for: 2012-10-27 at 10:44:52
+2017-03-22 10:45:20,903 INFO Tweet analysis for 2012-10-27 complete at 10:45:20. 20000 tweets scanned
+2017-03-22 10:45:20,903 INFO Scanning tweets for: 2008-10-27 at 10:45:20
+2017-03-22 10:45:48,118 INFO Tweet analysis for 2008-10-27 complete at 10:45:48. 20078 tweets scanned
+2017-03-22 10:45:48,119 INFO Scanning tweets for: 2016-10-16 at 10:45:48
+2017-03-22 10:46:15,315 INFO Tweet analysis for 2016-10-16 complete at 10:46:15. 20000 tweets scanned
+2017-03-22 10:46:15,315 INFO Scanning tweets for: 2008-10-11 at 10:46:15
+2017-03-22 10:46:41,185 INFO Tweet analysis for 2008-10-11 complete at 10:46:41. 18755 tweets scanned
+2017-03-22 10:46:41,186 INFO Scanning tweets for: 2008-10-07 at 10:46:41
+2017-03-22 10:47:12,825 INFO Tweet analysis for 2008-10-07 complete at 10:47:12. 22868 tweets scanned
+2017-03-22 10:47:12,825 INFO Scanning tweets for: 2016-10-29 at 10:47:12
+2017-03-22 10:47:39,869 INFO Tweet analysis for 2016-10-29 complete at 10:47:39. 20000 tweets scanned
+2017-03-22 10:47:39,869 INFO Scanning tweets for: 2012-11-02 at 10:47:39
+2017-03-22 10:48:07,827 INFO Tweet analysis for 2012-11-02 complete at 10:48:07. 20000 tweets scanned
+2017-03-22 10:48:07,827 INFO Scanning tweets for: 2012-10-07 at 10:48:07
+2017-03-22 10:48:35,516 INFO Tweet analysis for 2012-10-07 complete at 10:48:35. 20000 tweets scanned
+2017-03-22 10:48:35,516 INFO Scanning tweets for: 2016-10-25 at 10:48:35
+2017-03-22 10:49:03,025 INFO Tweet analysis for 2016-10-25 complete at 10:49:03. 20000 tweets scanned
+2017-03-22 10:49:03,026 INFO Scanning tweets for: 2008-10-17 at 10:49:03
+2017-03-22 10:49:35,661 INFO Tweet analysis for 2008-10-17 complete at 10:49:35. 24197 tweets scanned
+2017-03-22 10:49:35,661 INFO Scanning tweets for: 2008-10-25 at 10:49:35
+2017-03-22 10:49:58,873 INFO Tweet analysis for 2008-10-25 complete at 10:49:58. 17236 tweets scanned
+2017-03-22 10:49:58,873 INFO Scanning tweets for: 2012-10-12 at 10:49:58
+2017-03-22 10:50:22,399 INFO Tweet analysis for 2012-10-12 complete at 10:50:22. 16605 tweets scanned
+2017-03-22 10:50:22,399 INFO Scanning tweets for: 2008-10-16 at 10:50:22
+2017-03-22 10:51:04,012 INFO Tweet analysis for 2008-10-16 complete at 10:51:04. 29729 tweets scanned
+2017-03-22 10:51:04,012 INFO Scanning tweets for: 2008-10-15 at 10:51:04
+2017-03-22 10:51:34,869 INFO Tweet analysis for 2008-10-15 complete at 10:51:34. 22429 tweets scanned
+2017-03-22 10:51:34,869 INFO Scanning tweets for: 2008-10-21 at 10:51:34
+2017-03-22 10:52:04,337 INFO Tweet analysis for 2008-10-21 complete at 10:52:04. 21417 tweets scanned
+2017-03-22 10:52:04,337 INFO Scanning tweets for: 2012-10-24 at 10:52:04
+2017-03-22 10:52:32,774 INFO Tweet analysis for 2012-10-24 complete at 10:52:32. 20000 tweets scanned
+2017-03-22 10:52:32,774 INFO Scanning tweets for: 2012-10-25 at 10:52:32
+2017-03-22 10:53:01,120 INFO Tweet analysis for 2012-10-25 complete at 10:53:01. 20000 tweets scanned
+2017-03-22 10:53:01,120 INFO Scanning tweets for: 2012-11-03 at 10:53:01
+2017-03-22 10:53:29,335 INFO Tweet analysis for 2012-11-03 complete at 10:53:29. 20000 tweets scanned
+2017-03-22 10:53:29,335 INFO Scanning tweets for: 2012-10-13 at 10:53:29
+2017-03-22 10:53:57,495 INFO Tweet analysis for 2012-10-13 complete at 10:53:57. 20000 tweets scanned
+2017-03-22 10:53:57,495 INFO Scanning tweets for: 2016-10-30 at 10:53:57
+2017-03-22 10:54:12,688 INFO Tweet analysis for 2016-10-30 complete at 10:54:12. 11032 tweets scanned
+2017-03-22 10:54:12,688 INFO Scanning tweets for: 2016-10-10 at 10:54:12
+2017-03-22 10:54:40,523 INFO Tweet analysis for 2016-10-10 complete at 10:54:40. 20000 tweets scanned
+2017-03-22 10:54:40,523 INFO Scanning tweets for: 2012-10-10 at 10:54:40
+2017-03-22 10:55:08,691 INFO Tweet analysis for 2012-10-10 complete at 10:55:08. 20000 tweets scanned
+2017-03-22 10:55:08,691 INFO Scanning tweets for: 2016-11-07 at 10:55:08
+2017-03-22 10:55:35,822 INFO Tweet analysis for 2016-11-07 complete at 10:55:35. 20000 tweets scanned
+2017-03-22 10:55:35,823 INFO Scanning tweets for: 2016-10-15 at 10:55:35
+2017-03-22 10:56:02,988 INFO Tweet analysis for 2016-10-15 complete at 10:56:02. 20000 tweets scanned
+2017-03-22 10:56:02,988 INFO Scanning tweets for: 2012-10-19 at 10:56:02
+2017-03-22 10:56:31,087 INFO Tweet analysis for 2012-10-19 complete at 10:56:31. 20000 tweets scanned
+2017-03-22 10:56:31,088 INFO Scanning tweets for: 2016-10-26 at 10:56:31
+2017-03-22 10:56:47,270 INFO Tweet analysis for 2016-10-26 complete at 10:56:47. 11629 tweets scanned
+2017-03-22 10:56:47,270 INFO Scanning tweets for: 2016-10-21 at 10:56:47
+2017-03-22 10:57:14,296 INFO Tweet analysis for 2016-10-21 complete at 10:57:14. 20000 tweets scanned
+2017-03-22 10:57:14,296 INFO Scanning tweets for: 2016-10-28 at 10:57:14
+2017-03-22 10:57:41,805 INFO Tweet analysis for 2016-10-28 complete at 10:57:41. 20000 tweets scanned
+2017-03-22 10:57:41,805 INFO Scanning tweets for: 2016-11-04 at 10:57:41
+2017-03-22 10:58:08,242 INFO Tweet analysis for 2016-11-04 complete at 10:58:08. 20000 tweets scanned
+2017-03-22 10:58:08,242 INFO Scanning tweets for: 2008-10-13 at 10:58:08
+2017-03-22 10:58:33,759 INFO Tweet analysis for 2008-10-13 complete at 10:58:33. 18400 tweets scanned
+2017-03-22 10:58:33,759 INFO Scanning tweets for: 2008-10-30 at 10:58:33
+2017-03-22 10:59:05,518 INFO Tweet analysis for 2008-10-30 complete at 10:59:05. 22605 tweets scanned
+2017-03-22 10:59:05,518 INFO Scanning tweets for: 2012-10-09 at 10:59:05
+2017-03-22 10:59:33,826 INFO Tweet analysis for 2012-10-09 complete at 10:59:33. 20000 tweets scanned
+2017-03-22 10:59:33,826 INFO Scanning tweets for: 2008-11-01 at 10:59:33
+2017-03-22 11:00:00,070 INFO Tweet analysis for 2008-11-01 complete at 11:00:00. 20653 tweets scanned
+2017-03-22 11:00:00,071 INFO Scanning tweets for: 2012-11-04 at 11:00:00
+2017-03-22 11:00:27,998 INFO Tweet analysis for 2012-11-04 complete at 11:00:27. 20000 tweets scanned
+2017-03-22 11:00:27,998 INFO Scanning tweets for: 2008-10-14 at 11:00:27
+2017-03-22 11:00:53,532 INFO Tweet analysis for 2008-10-14 complete at 11:00:53. 18922 tweets scanned
+2017-03-22 11:00:53,532 INFO Scanning tweets for: 2008-10-18 at 11:00:53
+2017-03-22 11:01:15,435 INFO Tweet analysis for 2008-10-18 complete at 11:01:15. 15822 tweets scanned
+2017-03-22 11:01:15,435 INFO Scanning tweets for: 2012-10-15 at 11:01:15
+2017-03-22 11:01:43,452 INFO Tweet analysis for 2012-10-15 complete at 11:01:43. 20000 tweets scanned
+2017-03-22 11:01:43,452 INFO Scanning tweets for: 2016-10-08 at 11:01:43
+2017-03-22 11:02:12,338 INFO Tweet analysis for 2016-10-08 complete at 11:02:12. 20000 tweets scanned
+2017-03-22 11:02:12,338 INFO Scanning tweets for: 2008-10-19 at 11:02:12
+2017-03-22 11:02:22,353 INFO Tweet analysis for 2008-10-19 complete at 11:02:22. 7112 tweets scanned
+2017-03-22 11:02:22,353 INFO Scanning tweets for: 2008-10-05 at 11:02:22
+2017-03-22 11:02:40,928 INFO Tweet analysis for 2008-10-05 complete at 11:02:40. 13768 tweets scanned
+2017-03-22 11:02:40,928 INFO Scanning tweets for: 2012-10-14 at 11:02:40
+2017-03-22 11:03:09,121 INFO Tweet analysis for 2012-10-14 complete at 11:03:09. 20000 tweets scanned
+2017-03-22 11:03:09,122 INFO Scanning tweets for: 2016-11-01 at 11:03:09
+2017-03-22 11:03:36,466 INFO Tweet analysis for 2016-11-01 complete at 11:03:36. 20000 tweets scanned
+2017-03-22 11:03:36,466 INFO Scanning tweets for: 2012-10-11 at 11:03:36
+2017-03-22 11:04:05,245 INFO Tweet analysis for 2012-10-11 complete at 11:04:05. 20000 tweets scanned
+2017-03-22 11:04:05,245 INFO Scanning tweets for: 2008-10-31 at 11:04:05
+2017-03-22 11:04:36,483 INFO Tweet analysis for 2008-10-31 complete at 11:04:36. 22806 tweets scanned
+2017-03-22 11:04:36,483 INFO Scanning tweets for: 2008-10-28 at 11:04:36
+2017-03-22 11:05:05,043 INFO Tweet analysis for 2008-10-28 complete at 11:05:05. 20729 tweets scanned
+2017-03-22 11:05:05,043 INFO Scanning tweets for: 2012-10-29 at 11:05:05
+2017-03-22 11:05:32,600 INFO Tweet analysis for 2012-10-29 complete at 11:05:32. 20000 tweets scanned
+2017-03-22 11:05:32,600 INFO Scanning tweets for: 2008-10-09 at 11:05:32
+2017-03-22 11:06:01,469 INFO Tweet analysis for 2008-10-09 complete at 11:06:01. 20988 tweets scanned
+2017-03-22 11:06:01,469 INFO Scanning tweets for: 2016-10-22 at 11:06:01
+2017-03-22 11:06:28,573 INFO Tweet analysis for 2016-10-22 complete at 11:06:28. 20000 tweets scanned
+2017-03-22 11:06:28,573 INFO Scanning tweets for: 2008-10-26 at 11:06:28
+2017-03-22 11:06:51,456 INFO Tweet analysis for 2008-10-26 complete at 11:06:51. 17123 tweets scanned
+2017-03-22 11:06:51,457 INFO Scanning tweets for: 2012-10-17 at 11:06:51
+2017-03-22 11:07:19,735 INFO Tweet analysis for 2012-10-17 complete at 11:07:19. 20000 tweets scanned
+2017-03-22 11:07:19,735 INFO Scanning tweets for: 2008-11-03 at 11:07:19
+2017-03-22 11:07:52,089 INFO Tweet analysis for 2008-11-03 complete at 11:07:52. 24073 tweets scanned
+2017-03-22 11:07:52,089 INFO Scanning tweets for: 2008-10-24 at 11:07:52
+2017-03-22 11:08:23,583 INFO Tweet analysis for 2008-10-24 complete at 11:08:23. 23281 tweets scanned
+2017-03-22 11:08:23,583 INFO Scanning tweets for: 2016-10-20 at 11:08:23
+2017-03-22 11:08:50,818 INFO Tweet analysis for 2016-10-20 complete at 11:08:50. 20000 tweets scanned
+2017-03-22 11:08:50,818 INFO Scanning tweets for: 2012-10-20 at 11:08:50
+2017-03-22 11:09:19,153 INFO Tweet analysis for 2012-10-20 complete at 11:09:19. 20000 tweets scanned
+2017-03-22 11:09:19,153 INFO Scanning tweets for: 2016-10-11 at 11:09:19
+2017-03-22 11:09:46,861 INFO Tweet analysis for 2016-10-11 complete at 11:09:46. 20000 tweets scanned
+2017-03-22 11:09:46,861 INFO Scanning tweets for: 2008-10-29 at 11:09:46
+2017-03-22 11:10:16,758 INFO Tweet analysis for 2008-10-29 complete at 11:10:16. 21481 tweets scanned
+2017-03-22 11:10:16,758 INFO Scanning tweets for: 2012-10-26 at 11:10:16
+2017-03-22 11:10:45,309 INFO Tweet analysis for 2012-10-26 complete at 11:10:45. 20000 tweets scanned
+2017-03-22 11:10:45,309 INFO Scanning tweets for: 2008-10-12 at 11:10:45
+2017-03-22 11:11:02,697 INFO Tweet analysis for 2008-10-12 complete at 11:11:02. 12501 tweets scanned
+2017-03-22 11:11:02,697 INFO Scanning tweets for: 2016-10-17 at 11:11:02
+2017-03-22 11:11:29,657 INFO Tweet analysis for 2016-10-17 complete at 11:11:29. 20000 tweets scanned
+2017-03-22 11:11:29,657 INFO Scanning tweets for: 2016-10-14 at 11:11:29
+2017-03-22 11:11:56,898 INFO Tweet analysis for 2016-10-14 complete at 11:11:56. 20000 tweets scanned
+2017-03-22 11:11:56,898 INFO Scanning tweets for: 2016-10-13 at 11:11:56
+2017-03-22 11:12:24,315 INFO Tweet analysis for 2016-10-13 complete at 11:12:24. 20000 tweets scanned
+2017-03-22 11:12:24,315 INFO Scanning tweets for: 2016-10-12 at 11:12:24
+2017-03-22 11:12:51,750 INFO Tweet analysis for 2016-10-12 complete at 11:12:51. 20000 tweets scanned
+2017-03-22 11:12:51,750 INFO Scanning tweets for: 2016-10-19 at 11:12:51
+2017-03-22 11:13:19,755 INFO Tweet analysis for 2016-10-19 complete at 11:13:19. 20000 tweets scanned
+2017-03-22 11:13:19,755 INFO Scanning tweets for: 2012-10-21 at 11:13:19
+2017-03-22 11:13:49,336 INFO Tweet analysis for 2012-10-21 complete at 11:13:49. 20000 tweets scanned
+2017-03-22 11:13:49,336 INFO Scanning tweets for: 2012-10-08 at 11:13:49
+2017-03-22 11:14:19,318 INFO Tweet analysis for 2012-10-08 complete at 11:14:19. 20000 tweets scanned
+2017-03-22 11:14:19,318 INFO Scanning tweets for: 2012-10-23 at 11:14:19
+2017-03-22 11:14:48,561 INFO Tweet analysis for 2012-10-23 complete at 11:14:48. 20000 tweets scanned
+2017-03-22 11:14:48,561 INFO Scanning tweets for: 2012-10-16 at 11:14:48
+2017-03-22 11:15:16,853 INFO Tweet analysis for 2012-10-16 complete at 11:15:16. 20000 tweets scanned
+2017-03-22 11:15:16,853 INFO Scanning tweets for: 2008-11-02 at 11:15:16
+2017-03-22 11:15:47,805 INFO Tweet analysis for 2008-11-02 complete at 11:15:47. 23839 tweets scanned
+2017-03-22 11:15:47,805 INFO Scanning tweets for: 2016-10-18 at 11:15:47
+2017-03-22 11:16:14,682 INFO Tweet analysis for 2016-10-18 complete at 11:16:14. 20000 tweets scanned
+2017-03-22 11:16:14,682 INFO Scanning tweets for: 2016-10-23 at 11:16:14
+2017-03-22 11:16:41,457 INFO Tweet analysis for 2016-10-23 complete at 11:16:41. 20000 tweets scanned
+2017-03-22 11:16:41,458 INFO Scanning tweets for: 2016-10-27 at 11:16:41
+2017-03-22 11:17:08,297 INFO Tweet analysis for 2016-10-27 complete at 11:17:08. 20000 tweets scanned
+2017-03-22 11:17:08,297 INFO Scanning tweets for: 2016-11-02 at 11:17:08
+2017-03-22 11:17:34,937 INFO Tweet analysis for 2016-11-02 complete at 11:17:34. 20000 tweets scanned
+2017-03-22 11:17:34,938 INFO Scanning tweets for: 2008-10-08 at 11:17:34
+2017-03-22 11:18:12,600 INFO Tweet analysis for 2008-10-08 complete at 11:18:12. 26851 tweets scanned
+2017-03-22 11:18:12,600 INFO Scanning tweets for: 2012-10-22 at 11:18:12
+2017-03-22 11:18:40,852 INFO Tweet analysis for 2012-10-22 complete at 11:18:40. 20000 tweets scanned
+2017-03-22 11:18:40,852 INFO Scanning tweets for: 2008-10-04 at 11:18:40
+2017-03-22 11:18:56,035 INFO Tweet analysis for 2008-10-04 complete at 11:18:56. 11132 tweets scanned
+2017-03-22 11:18:56,036 INFO Scanning tweets for: 2008-10-23 at 11:18:56
+2017-03-22 11:19:26,066 INFO Tweet analysis for 2008-10-23 complete at 11:19:26. 21951 tweets scanned
+2017-03-22 11:19:26,066 INFO Scanning tweets for: 2012-10-28 at 11:19:26
+2017-03-22 11:19:53,243 INFO Tweet analysis for 2012-10-28 complete at 11:19:53. 20000 tweets scanned
+2017-03-22 11:19:53,243 INFO Scanning tweets for: 2012-10-30 at 11:19:53
+2017-03-22 11:20:21,033 INFO Tweet analysis for 2012-10-30 complete at 11:20:21. 20000 tweets scanned
+2017-03-22 11:20:21,033 INFO Scanning tweets for: 2008-10-06 at 11:20:21
+2017-03-22 11:20:48,407 INFO Tweet analysis for 2008-10-06 complete at 11:20:48. 19768 tweets scanned
+2017-03-22 11:20:48,407 INFO Scanning tweets for: 2008-10-22 at 11:20:48
+2017-03-22 11:21:18,108 INFO Tweet analysis for 2008-10-22 complete at 11:21:18. 21701 tweets scanned
+2017-03-22 11:21:18,108 INFO Scanning tweets for: 2008-10-20 at 11:21:18
+2017-03-22 11:21:47,948 INFO Tweet analysis for 2008-10-20 complete at 11:21:47. 21595 tweets scanned
+2017-03-22 11:21:47,948 INFO Scanning tweets for: 2008-10-10 at 11:21:47
+2017-03-22 11:22:16,624 INFO Tweet analysis for 2008-10-10 complete at 11:22:16. 20622 tweets scanned
+2017-03-22 11:22:16,624 INFO Scanning tweets for: 2016-11-03 at 11:22:16
+2017-03-22 11:22:43,348 INFO Tweet analysis for 2016-11-03 complete at 11:22:43. 20000 tweets scanned
+2017-03-22 11:22:43,348 INFO Scanning tweets for: 2016-11-05 at 11:22:43
+2017-03-22 11:23:09,801 INFO Tweet analysis for 2016-11-05 complete at 11:23:09. 20000 tweets scanned
+2017-03-22 11:23:09,801 INFO Scanning tweets for: 2016-10-09 at 11:23:09
+2017-03-22 11:23:38,657 INFO Tweet analysis for 2016-10-09 complete at 11:23:38. 20000 tweets scanned
+2017-03-22 11:23:38,657 INFO Scanning tweets for: 2016-11-06 at 11:23:38
+2017-03-22 11:24:05,901 INFO Tweet analysis for 2016-11-06 complete at 11:24:05. 20000 tweets scanned
+2017-03-22 11:24:05,901 INFO Scanning tweets for: 2012-11-05 at 11:24:05
+2017-03-22 11:24:32,570 INFO Tweet analysis for 2012-11-05 complete at 11:24:32. 20000 tweets scanned
+2017-03-22 11:24:32,570 INFO Scanning tweets for: 2016-10-24 at 11:24:32
+2017-03-22 11:24:59,214 INFO Tweet analysis for 2016-10-24 complete at 11:24:59. 20000 tweets scanned
+2017-03-22 11:24:59,215 INFO Scanning tweets for: 2016-10-31 at 11:24:59
+2017-03-22 11:25:26,359 INFO Tweet analysis for 2016-10-31 complete at 11:25:26. 20000 tweets scanned
+2017-03-22 11:25:26,359 INFO Scanning tweets for: 2012-10-31 at 11:25:26
+2017-03-22 11:25:53,889 INFO Tweet analysis for 2012-10-31 complete at 11:25:53. 20000 tweets scanned
+2017-03-22 11:25:53,890 INFO Scanning tweets for: 2012-10-06 at 11:25:53
+2017-03-22 11:26:21,528 INFO Tweet analysis for 2012-10-06 complete at 11:26:21. 20000 tweets scanned
+2017-03-22 11:26:21,528 INFO Scanning tweets for: 2012-11-01 at 11:26:21
+2017-03-22 11:26:49,127 INFO Tweet analysis for 2012-11-01 complete at 11:26:49. 20000 tweets scanned
+2017-03-22 11:27:05,122 INFO Input tweets: 1843698
+2017-03-22 11:27:05,123 INFO Dropped tweets: 39439
+2017-03-22 11:27:05,238 INFO Average scan time: 0.00136336080935
+2017-03-22 11:27:05,353 INFO All input scanned at 11:27:05
+2017-03-22 11:27:05,444 INFO Time taken: 2513.62559748s
+2017-03-22 11:40:07,310 INFO 308651 rows accepted at data5/romney.csv
+2017-03-22 11:40:09,486 INFO 0 	duplicates dropped at 	data5/romney.csv
+2017-03-22 11:40:12,207 INFO 18205 rows accepted at data5/2016-10-28.csv
+2017-03-22 11:40:12,342 INFO 1079 	duplicates dropped at 	data5/2016-10-28.csv
+2017-03-22 11:40:14,986 INFO 18273 rows accepted at data5/2012-11-01.csv
+2017-03-22 11:40:15,123 INFO 1626 	duplicates dropped at 	data5/2012-11-01.csv
+2017-03-22 11:40:17,579 INFO 17523 rows accepted at data5/2012-10-21.csv
+2017-03-22 11:40:17,709 INFO 2372 	duplicates dropped at 	data5/2012-10-21.csv
+2017-03-22 11:40:23,915 INFO 20540 rows accepted at data5/2008-11-02.csv
+2017-03-22 11:40:24,062 INFO 2722 	duplicates dropped at 	data5/2008-11-02.csv
+2017-03-22 11:40:27,781 INFO 16097 rows accepted at data5/2008-10-06.csv
+2017-03-22 11:40:27,899 INFO 3345 	duplicates dropped at 	data5/2008-10-06.csv
+2017-03-22 11:40:30,300 INFO 14156 rows accepted at data5/2008-10-25.csv
+2017-03-22 11:40:30,403 INFO 2768 	duplicates dropped at 	data5/2008-10-25.csv
+2017-03-22 11:40:31,259 INFO 10704 rows accepted at data5/2016-10-26.csv
+2017-03-22 11:40:31,342 INFO 408 	duplicates dropped at 	data5/2016-10-26.csv
+2017-03-22 11:40:32,388 INFO 9241 rows accepted at data5/2008-10-04.csv
+2017-03-22 11:40:32,466 INFO 1719 	duplicates dropped at 	data5/2008-10-04.csv
+2017-03-22 11:40:35,052 INFO 18203 rows accepted at data5/2016-10-21.csv
+2017-03-22 11:40:35,193 INFO 891 	duplicates dropped at 	data5/2016-10-21.csv
+2017-03-22 11:40:37,736 INFO 17558 rows accepted at data5/2012-10-19.csv
+2017-03-22 11:40:37,864 INFO 2315 	duplicates dropped at 	data5/2012-10-19.csv
+2017-03-22 11:40:40,294 INFO 16901 rows accepted at data5/2012-10-17.csv
+2017-03-22 11:40:40,419 INFO 2950 	duplicates dropped at 	data5/2012-10-17.csv
+2017-03-22 11:40:43,838 INFO 18340 rows accepted at data5/2012-10-30.csv
+2017-03-22 11:40:44,004 INFO 1550 	duplicates dropped at 	data5/2012-10-30.csv
+2017-03-22 11:40:46,613 INFO 18404 rows accepted at data5/2016-10-25.csv
+2017-03-22 11:40:46,751 INFO 755 	duplicates dropped at 	data5/2016-10-25.csv
+2017-03-22 11:40:49,279 INFO 18153 rows accepted at data5/2012-10-27.csv
+2017-03-22 11:40:49,435 INFO 1660 	duplicates dropped at 	data5/2012-10-27.csv
+2017-03-22 11:40:51,969 INFO 18500 rows accepted at data5/2016-10-14.csv
+2017-03-22 11:40:52,110 INFO 695 	duplicates dropped at 	data5/2016-10-14.csv
+2017-03-22 11:40:54,544 INFO 17508 rows accepted at data5/2012-10-15.csv
+2017-03-22 11:40:54,676 INFO 2386 	duplicates dropped at 	data5/2012-10-15.csv
+2017-03-22 11:40:57,243 INFO 18453 rows accepted at data5/2016-10-27.csv
+2017-03-22 11:40:57,383 INFO 784 	duplicates dropped at 	data5/2016-10-27.csv
+2017-03-22 11:41:02,190 INFO 18489 rows accepted at data5/2008-10-07.csv
+2017-03-22 11:41:02,322 INFO 4065 	duplicates dropped at 	data5/2008-10-07.csv
+2017-03-22 11:41:04,907 INFO 18409 rows accepted at data5/2012-10-31.csv
+2017-03-22 11:41:05,045 INFO 1464 	duplicates dropped at 	data5/2012-10-31.csv
+2017-03-22 11:41:14,925 INFO 25657 rows accepted at data5/2008-10-16.csv
+2017-03-22 11:41:15,110 INFO 3658 	duplicates dropped at 	data5/2008-10-16.csv
+2017-03-22 11:41:17,963 INFO 15246 rows accepted at data5/2008-10-13.csv
+2017-03-22 11:41:18,081 INFO 2863 	duplicates dropped at 	data5/2008-10-13.csv
+2017-03-22 11:41:20,413 INFO 14093 rows accepted at data5/2008-10-26.csv
+2017-03-22 11:41:20,520 INFO 2712 	duplicates dropped at 	data5/2008-10-26.csv
+2017-03-22 11:41:23,062 INFO 18168 rows accepted at data5/2012-10-06.csv
+2017-03-22 11:41:23,200 INFO 1678 	duplicates dropped at 	data5/2012-10-06.csv
+2017-03-22 11:41:23,209 INFO 0 rows accepted at data5/BarackObama.csv
+2017-03-22 11:41:23,210 INFO 0 	duplicates dropped at 	data5/BarackObama.csv
+2017-03-22 11:41:28,353 INFO 19358 rows accepted at data5/2008-10-30.csv
+2017-03-22 11:41:28,492 INFO 2962 	duplicates dropped at 	data5/2008-10-30.csv
+2017-03-22 11:41:30,944 INFO 17735 rows accepted at data5/2012-10-11.csv
+2017-03-22 11:41:31,080 INFO 2167 	duplicates dropped at 	data5/2012-10-11.csv
+2017-03-22 11:41:33,600 INFO 18172 rows accepted at data5/2016-10-23.csv
+2017-03-22 11:41:33,738 INFO 1029 	duplicates dropped at 	data5/2016-10-23.csv
+2017-03-22 11:41:38,268 INFO 18192 rows accepted at data5/2008-10-20.csv
+2017-03-22 11:41:38,399 INFO 3064 	duplicates dropped at 	data5/2008-10-20.csv
+2017-03-22 11:41:40,920 INFO 18251 rows accepted at data5/2016-11-06.csv
+2017-03-22 11:41:41,061 INFO 885 	duplicates dropped at 	data5/2016-11-06.csv
+2017-03-22 11:41:43,590 INFO 18195 rows accepted at data5/2016-10-12.csv
+2017-03-22 11:41:43,727 INFO 907 	duplicates dropped at 	data5/2016-10-12.csv
+2017-03-22 11:41:46,115 INFO 17411 rows accepted at data5/2012-10-20.csv
+2017-03-22 11:41:46,244 INFO 2483 	duplicates dropped at 	data5/2012-10-20.csv
+2017-03-22 11:41:48,765 INFO 18018 rows accepted at data5/2012-10-28.csv
+2017-03-22 11:41:48,898 INFO 1693 	duplicates dropped at 	data5/2012-10-28.csv
+2017-03-22 11:41:49,727 INFO 10408 rows accepted at data5/2016-10-30.csv
+2017-03-22 11:41:49,811 INFO 176 	duplicates dropped at 	data5/2016-10-30.csv
+2017-03-22 11:41:53,676 INFO 17071 rows accepted at data5/2008-10-09.csv
+2017-03-22 11:41:53,799 INFO 3523 	duplicates dropped at 	data5/2008-10-09.csv
+2017-03-22 11:41:56,397 INFO 18576 rows accepted at data5/2016-10-08.csv
+2017-03-22 11:41:56,538 INFO 667 	duplicates dropped at 	data5/2016-10-08.csv
+2017-03-22 11:41:59,310 INFO 14989 rows accepted at data5/2008-10-11.csv
+2017-03-22 11:41:59,420 INFO 3448 	duplicates dropped at 	data5/2008-10-11.csv
+2017-03-22 11:42:04,111 INFO 18468 rows accepted at data5/2008-10-15.csv
+2017-03-22 11:42:04,301 INFO 3557 	duplicates dropped at 	data5/2008-10-15.csv
+2017-03-22 11:42:07,386 INFO 15842 rows accepted at data5/2008-10-14.csv
+2017-03-22 11:42:07,519 INFO 2723 	duplicates dropped at 	data5/2008-10-14.csv
+2017-03-22 11:42:09,989 INFO 18304 rows accepted at data5/2016-10-17.csv
+2017-03-22 11:42:10,129 INFO 825 	duplicates dropped at 	data5/2016-10-17.csv
+2017-03-22 11:42:15,788 INFO 19995 rows accepted at data5/2008-10-17.csv
+2017-03-22 11:42:15,931 INFO 3783 	duplicates dropped at 	data5/2008-10-17.csv
+2017-03-22 11:42:18,399 INFO 17978 rows accepted at data5/2016-11-02.csv
+2017-03-22 11:42:18,537 INFO 1050 	duplicates dropped at 	data5/2016-11-02.csv
+2017-03-22 11:42:21,027 INFO 17727 rows accepted at data5/2012-10-10.csv
+2017-03-22 11:42:21,276 INFO 2200 	duplicates dropped at 	data5/2012-10-10.csv
+2017-03-22 11:53:41,567 INFO 288712 rows accepted at data5/clinton.csv
+2017-03-22 11:53:43,637 INFO 1200 	duplicates dropped at 	data5/clinton.csv
+2017-03-22 11:53:46,293 INFO 18019 rows accepted at data5/2012-10-29.csv
+2017-03-22 11:53:46,445 INFO 1855 	duplicates dropped at 	data5/2012-10-29.csv
+2017-03-22 11:53:48,831 INFO 16779 rows accepted at data5/2012-10-22.csv
+2017-03-22 11:53:48,970 INFO 3112 	duplicates dropped at 	data5/2012-10-22.csv
+2017-03-22 11:53:52,657 INFO 17076 rows accepted at data5/2008-10-27.csv
+2017-03-22 11:53:52,833 INFO 2678 	duplicates dropped at 	data5/2008-10-27.csv
+2017-03-22 11:53:54,222 INFO 10275 rows accepted at data5/2008-10-12.csv
+2017-03-22 11:53:54,308 INFO 2066 	duplicates dropped at 	data5/2008-10-12.csv
+2017-03-22 11:53:56,794 INFO 18269 rows accepted at data5/2016-11-07.csv
+2017-03-22 11:53:56,960 INFO 969 	duplicates dropped at 	data5/2016-11-07.csv
+2017-03-22 12:12:20,370 INFO 260617 rows accepted at data5/obama1.csv
+2017-03-22 12:12:22,143 INFO 0 	duplicates dropped at 	data5/obama1.csv
+2017-03-22 12:12:24,756 INFO 18184 rows accepted at data5/2016-10-29.csv
+2017-03-22 12:12:24,914 INFO 883 	duplicates dropped at 	data5/2016-10-29.csv
+2017-03-22 12:12:26,828 INFO 13307 rows accepted at data5/2008-10-18.csv
+2017-03-22 12:12:26,965 INFO 2301 	duplicates dropped at 	data5/2008-10-18.csv
+2017-03-22 12:26:30,637 INFO 285757 rows accepted at data5/trump.csv
+2017-03-22 12:26:33,264 INFO 1827 	duplicates dropped at 	data5/trump.csv
+2017-03-22 12:26:36,901 INFO 18037 rows accepted at data5/2016-10-19.csv
+2017-03-22 12:26:37,068 INFO 1310 	duplicates dropped at 	data5/2016-10-19.csv
+2017-03-22 12:26:40,813 INFO 18124 rows accepted at data5/2016-10-15.csv
+2017-03-22 12:26:40,981 INFO 1023 	duplicates dropped at 	data5/2016-10-15.csv
+2017-03-22 12:26:44,451 INFO 18287 rows accepted at data5/2016-10-22.csv
+2017-03-22 12:26:44,615 INFO 825 	duplicates dropped at 	data5/2016-10-22.csv
+2017-03-22 12:26:50,863 INFO 18240 rows accepted at data5/2008-10-22.csv
+2017-03-22 12:26:51,074 INFO 3041 	duplicates dropped at 	data5/2008-10-22.csv
+2017-03-22 12:26:54,353 INFO 17638 rows accepted at data5/2012-10-13.csv
+2017-03-22 12:26:54,506 INFO 2237 	duplicates dropped at 	data5/2012-10-13.csv
+2017-03-22 12:26:56,529 INFO 11203 rows accepted at data5/2008-10-05.csv
+2017-03-22 12:26:56,623 INFO 2367 	duplicates dropped at 	data5/2008-10-05.csv
+2017-03-22 12:26:57,100 INFO 6172 rows accepted at data5/2008-10-19.csv
+2017-03-22 12:26:57,151 INFO 841 	duplicates dropped at 	data5/2008-10-19.csv
+2017-03-22 12:27:00,452 INFO 18187 rows accepted at data5/2016-10-20.csv
+2017-03-22 12:27:00,610 INFO 1029 	duplicates dropped at 	data5/2016-10-20.csv
+2017-03-22 12:27:06,501 INFO 17486 rows accepted at data5/2008-10-28.csv
+2017-03-22 12:27:06,669 INFO 2919 	duplicates dropped at 	data5/2008-10-28.csv
+2017-03-22 12:27:09,988 INFO 18043 rows accepted at data5/2016-11-03.csv
+2017-03-22 12:27:10,219 INFO 1028 	duplicates dropped at 	data5/2016-11-03.csv
+2017-03-22 12:27:13,544 INFO 18217 rows accepted at data5/2016-10-31.csv
+2017-03-22 12:27:13,786 INFO 931 	duplicates dropped at 	data5/2016-10-31.csv
+2017-03-22 12:44:03,275 INFO 304043 rows accepted at data5/obama2.csv
+2017-03-22 12:44:05,771 INFO 0 	duplicates dropped at 	data5/obama2.csv
+2017-03-22 12:44:09,492 INFO 17315 rows accepted at data5/2012-10-23.csv
+2017-03-22 12:44:09,727 INFO 2563 	duplicates dropped at 	data5/2012-10-23.csv
+2017-03-22 12:44:13,689 INFO 18015 rows accepted at data5/2012-10-24.csv
+2017-03-22 12:44:13,881 INFO 1884 	duplicates dropped at 	data5/2012-10-24.csv
+2017-03-22 12:44:16,183 INFO 15492 rows accepted at data5/2012-10-12.csv
+2017-03-22 12:44:16,376 INFO 996 	duplicates dropped at 	data5/2012-10-12.csv
+2017-03-22 12:44:19,858 INFO 17957 rows accepted at data5/2012-10-09.csv
+2017-03-22 12:44:20,062 INFO 1917 	duplicates dropped at 	data5/2012-10-09.csv
+2017-03-22 12:44:26,231 INFO 18299 rows accepted at data5/2008-10-29.csv
+2017-03-22 12:44:26,473 INFO 2865 	duplicates dropped at 	data5/2008-10-29.csv
+2017-03-22 12:51:31,901 INFO 141500 rows accepted at data5/palin.csv
+2017-03-22 12:51:33,015 INFO 0 	duplicates dropped at 	data5/palin.csv
+2017-03-22 12:51:36,441 INFO 18269 rows accepted at data5/2012-10-25.csv
+2017-03-22 12:51:36,594 INFO 1630 	duplicates dropped at 	data5/2012-10-25.csv
+2017-03-22 12:51:39,609 INFO 17156 rows accepted at data5/2016-10-09.csv
+2017-03-22 12:51:39,780 INFO 2195 	duplicates dropped at 	data5/2016-10-09.csv
+2017-03-22 12:51:42,692 INFO 17071 rows accepted at data5/2012-10-16.csv
+2017-03-22 12:51:42,854 INFO 2851 	duplicates dropped at 	data5/2012-10-16.csv
+2017-03-22 12:51:48,664 INFO 17948 rows accepted at data5/2008-11-01.csv
+2017-03-22 12:51:48,857 INFO 2237 	duplicates dropped at 	data5/2008-11-01.csv
+2017-03-22 12:51:51,972 INFO 17917 rows accepted at data5/2016-11-01.csv
+2017-03-22 12:51:52,152 INFO 1217 	duplicates dropped at 	data5/2016-11-01.csv
+2017-03-22 12:51:55,373 INFO 18258 rows accepted at data5/2016-10-18.csv
+2017-03-22 12:51:55,544 INFO 821 	duplicates dropped at 	data5/2016-10-18.csv
+2017-03-22 13:05:35,329 INFO 211952 rows accepted at data5/mccain.csv
+2017-03-22 13:05:36,821 INFO 0 	duplicates dropped at 	data5/mccain.csv
+2017-03-22 13:05:39,594 INFO 18162 rows accepted at data5/2016-11-04.csv
+2017-03-22 13:05:39,786 INFO 959 	duplicates dropped at 	data5/2016-11-04.csv
+2017-03-22 13:05:42,209 INFO 18196 rows accepted at data5/2016-10-16.csv
+2017-03-22 13:05:42,367 INFO 877 	duplicates dropped at 	data5/2016-10-16.csv
+2017-03-22 13:05:46,732 INFO 18226 rows accepted at data5/2008-10-23.csv
+2017-03-22 13:05:46,931 INFO 3349 	duplicates dropped at 	data5/2008-10-23.csv
+2017-03-22 13:05:52,237 INFO 19655 rows accepted at data5/2008-10-24.csv
+2017-03-22 13:05:52,453 INFO 3233 	duplicates dropped at 	data5/2008-10-24.csv
+2017-03-22 13:05:55,262 INFO 17025 rows accepted at data5/2012-10-08.csv
+2017-03-22 13:05:55,409 INFO 2870 	duplicates dropped at 	data5/2012-10-08.csv
+2017-03-22 13:05:57,966 INFO 18166 rows accepted at data5/2016-10-11.csv
+2017-03-22 13:05:58,109 INFO 1030 	duplicates dropped at 	data5/2016-10-11.csv
+2017-03-22 13:06:00,625 INFO 18430 rows accepted at data5/2016-10-24.csv
+2017-03-22 13:06:00,765 INFO 788 	duplicates dropped at 	data5/2016-10-24.csv
+2017-03-22 13:06:03,276 INFO 17999 rows accepted at data5/2016-11-05.csv
+2017-03-22 13:06:03,413 INFO 1084 	duplicates dropped at 	data5/2016-11-05.csv
+2017-03-22 13:06:05,846 INFO 17742 rows accepted at data5/2012-11-02.csv
+2017-03-22 13:06:05,975 INFO 2029 	duplicates dropped at 	data5/2012-11-02.csv
+2017-03-22 13:06:08,555 INFO 18446 rows accepted at data5/2012-10-26.csv
+2017-03-22 13:06:08,713 INFO 1455 	duplicates dropped at 	data5/2012-10-26.csv
+2017-03-22 13:06:11,133 INFO 17417 rows accepted at data5/2012-11-04.csv
+2017-03-22 13:06:11,301 INFO 2478 	duplicates dropped at 	data5/2012-11-04.csv

@@ -1,7 +1,0 @@
-{
-  "tag": "Search tag",
-  "text": "tweet['text']",
-  "retweeted": "tweet['retweeted']",
-  "id": "tweet['id']",
-  "timestamp": "tweet['created_at']: Mon Oct 17 05:30:33 +0000 2016"
-}

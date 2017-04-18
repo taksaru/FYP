@@ -127,16 +127,6 @@ commands = """##############################
 # * Get Mentions             #
 # * Get Tags                 #
 #                            #
-# Available Topics:          #
-# * Mass Effect Andromeda    #
-# * obama1                   #
-# * mccain                   #
-# * palin                    #
-# * obama2                   #
-# * romney                   #
-# * clinton                  #
-# * trump                    #
-#                            #
 ##############################"""
 
 # Main Process

@@ -19181,3 +19181,62 @@
 2017-04-19 12:10:29,156 INFO Mass Effect Andromeda Thread Started
 2017-04-19 12:10:29,532 INFO Overwatch Thread Started
 2017-04-19 12:10:29,533 INFO Rocket League Thread Started
+2017-04-20 11:54:52,177 INFO Mass Effect Andromeda Thread Started
+2017-04-20 11:54:52,190 INFO Overwatch Thread Started
+2017-04-20 11:54:52,190 INFO Rocket League Thread Started
+2017-04-20 12:08:58,016 INFO Mass Effect Andromeda Thread Started
+2017-04-20 12:08:58,017 INFO Overwatch Thread Started
+2017-04-20 12:08:58,017 INFO Rocket League Thread Started
+2017-04-20 12:23:58,128 DEBUG Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=utf-8, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i, client_secret=****, callback_uri=None, client_key=LJ0wq7eWPRSmdJVIoxQtYxyuy>
+2017-04-20 12:23:58,129 DEBUG Including body in call to sign: False
+2017-04-20 12:23:58,130 DEBUG Collected params: [(u'q', u'Rocket League'), (u'count', u'20'), (u'include_entities', u'false'), (u'lang', u'en'), (u'oauth_nonce', u'9998473323521290921492687438'), (u'oauth_timestamp', u'1492687438'), (u'oauth_consumer_key', u'LJ0wq7eWPRSmdJVIoxQtYxyuy'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i')]
+2017-04-20 12:23:58,130 DEBUG Normalized params: count=20&include_entities=false&lang=en&oauth_consumer_key=LJ0wq7eWPRSmdJVIoxQtYxyuy&oauth_nonce=9998473323521290921492687438&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1492687438&oauth_token=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i&oauth_version=1.0&q=Rocket%20League
+2017-04-20 12:23:58,130 DEBUG Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+2017-04-20 12:23:58,130 DEBUG Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&count%3D20%26include_entities%3Dfalse%26lang%3Den%26oauth_consumer_key%3DLJ0wq7eWPRSmdJVIoxQtYxyuy%26oauth_nonce%3D9998473323521290921492687438%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1492687438%26oauth_token%3D787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i%26oauth_version%3D1.0%26q%3DRocket%2520League
+2017-04-20 12:23:58,130 DEBUG Signature: JFJFGwsbE0jon4zBnzhsKMu1dBU=
+2017-04-20 12:23:58,130 DEBUG Encoding URI, headers and body to utf-8.
+2017-04-20 12:23:58,130 DEBUG Updated url: https://api.twitter.com/1.1/search/tweets.json?q=Rocket+League&count=20&include_entities=false&lang=en
+2017-04-20 12:23:58,130 DEBUG Updated headers: {'Accept': '*/*', 'Connection': 'keep-alive', 'Accept-Encoding': 'gzip, deflate', 'Authorization': 'OAuth oauth_nonce="9998473323521290921492687438", oauth_timestamp="1492687438", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="LJ0wq7eWPRSmdJVIoxQtYxyuy", oauth_token="787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i", oauth_signature="JFJFGwsbE0jon4zBnzhsKMu1dBU%3D"', 'User-Agent': 'Twython v3.4.0'}
+2017-04-20 12:23:58,131 DEBUG Updated body: None
+2017-04-20 12:23:58,142 INFO Starting new HTTPS connection (1): api.twitter.com
+2017-04-20 12:23:59,022 DEBUG "GET /1.1/search/tweets.json?q=Rocket+League&count=20&include_entities=false&lang=en HTTP/1.1" 200 7688
+2017-04-20 12:23:59,085 INFO Rocket League data Collected
+2017-04-20 12:23:59,095 INFO Rocket League data Scanned
+2017-04-20 12:24:00,099 INFO Rocket League data Recorded
+2017-04-20 12:24:00,099 INFO Waiting 900s before attempting Rocket League data collection
+2017-04-20 12:38:58,082 DEBUG Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=utf-8, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i, client_secret=****, callback_uri=None, client_key=LJ0wq7eWPRSmdJVIoxQtYxyuy>
+2017-04-20 12:38:58,082 DEBUG Including body in call to sign: False
+2017-04-20 12:38:58,083 DEBUG Collected params: [(u'q', u'Mass Effect Andromeda'), (u'count', u'100'), (u'include_entities', u'false'), (u'lang', u'en'), (u'oauth_nonce', u'90386151025789844371492688338'), (u'oauth_timestamp', u'1492688338'), (u'oauth_consumer_key', u'LJ0wq7eWPRSmdJVIoxQtYxyuy'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i')]
+2017-04-20 12:38:58,083 DEBUG Normalized params: count=100&include_entities=false&lang=en&oauth_consumer_key=LJ0wq7eWPRSmdJVIoxQtYxyuy&oauth_nonce=90386151025789844371492688338&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1492688338&oauth_token=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i&oauth_version=1.0&q=Mass%20Effect%20Andromeda
+2017-04-20 12:38:58,083 DEBUG Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+2017-04-20 12:38:58,083 DEBUG Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&count%3D100%26include_entities%3Dfalse%26lang%3Den%26oauth_consumer_key%3DLJ0wq7eWPRSmdJVIoxQtYxyuy%26oauth_nonce%3D90386151025789844371492688338%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1492688338%26oauth_token%3D787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i%26oauth_version%3D1.0%26q%3DMass%2520Effect%2520Andromeda
+2017-04-20 12:38:58,084 DEBUG Signature: nnFY6uMi1BvewZKrbIuhsSR9FBA=
+2017-04-20 12:38:58,084 DEBUG Encoding URI, headers and body to utf-8.
+2017-04-20 12:38:58,084 DEBUG Updated url: https://api.twitter.com/1.1/search/tweets.json?q=Mass+Effect+Andromeda&count=100&include_entities=false&lang=en
+2017-04-20 12:38:58,084 DEBUG Updated headers: {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'Twython v3.4.0', 'Connection': 'keep-alive', 'Cookie': 'guest_id=v1%3A149268743881188115', 'Authorization': 'OAuth oauth_nonce="90386151025789844371492688338", oauth_timestamp="1492688338", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="LJ0wq7eWPRSmdJVIoxQtYxyuy", oauth_token="787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i", oauth_signature="nnFY6uMi1BvewZKrbIuhsSR9FBA%3D"'}
+2017-04-20 12:38:58,084 DEBUG Updated body: None
+2017-04-20 12:38:58,613 DEBUG "GET /1.1/search/tweets.json?q=Mass+Effect+Andromeda&count=100&include_entities=false&lang=en HTTP/1.1" 200 39023
+2017-04-20 12:38:58,661 INFO Mass Effect Andromeda data Collected
+2017-04-20 12:38:58,700 INFO Mass Effect Andromeda data Scanned
+2017-04-20 12:38:59,528 INFO Mass Effect Andromeda data Recorded
+2017-04-20 12:38:59,529 INFO Waiting 1800s before attempting Mass Effect Andromeda data collection
+2017-04-20 12:39:00,186 DEBUG Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=utf-8, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i, client_secret=****, callback_uri=None, client_key=LJ0wq7eWPRSmdJVIoxQtYxyuy>
+2017-04-20 12:39:00,187 DEBUG Including body in call to sign: False
+2017-04-20 12:39:00,187 DEBUG Collected params: [(u'q', u'Rocket League'), (u'count', u'20'), (u'include_entities', u'false'), (u'lang', u'en'), (u'oauth_nonce', u'49381716552469360531492688340'), (u'oauth_timestamp', u'1492688340'), (u'oauth_consumer_key', u'LJ0wq7eWPRSmdJVIoxQtYxyuy'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i')]
+2017-04-20 12:39:00,188 DEBUG Normalized params: count=20&include_entities=false&lang=en&oauth_consumer_key=LJ0wq7eWPRSmdJVIoxQtYxyuy&oauth_nonce=49381716552469360531492688340&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1492688340&oauth_token=787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i&oauth_version=1.0&q=Rocket%20League
+2017-04-20 12:39:00,188 DEBUG Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+2017-04-20 12:39:00,188 DEBUG Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&count%3D20%26include_entities%3Dfalse%26lang%3Den%26oauth_consumer_key%3DLJ0wq7eWPRSmdJVIoxQtYxyuy%26oauth_nonce%3D49381716552469360531492688340%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1492688340%26oauth_token%3D787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i%26oauth_version%3D1.0%26q%3DRocket%2520League
+2017-04-20 12:39:00,188 DEBUG Signature: 7qhKpsymIQuxJdZwgvuFetSsX4w=
+2017-04-20 12:39:00,188 DEBUG Encoding URI, headers and body to utf-8.
+2017-04-20 12:39:00,188 DEBUG Updated url: https://api.twitter.com/1.1/search/tweets.json?q=Rocket+League&count=20&include_entities=false&lang=en
+2017-04-20 12:39:00,188 DEBUG Updated headers: {'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'Twython v3.4.0', 'Connection': 'keep-alive', 'Cookie': 'guest_id=v1%3A149268743881188115', 'Authorization': 'OAuth oauth_nonce="49381716552469360531492688340", oauth_timestamp="1492688340", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="LJ0wq7eWPRSmdJVIoxQtYxyuy", oauth_token="787936570968043520-o1bHGOmR4AEuNoafsWoROAQIQIbwz3i", oauth_signature="7qhKpsymIQuxJdZwgvuFetSsX4w%3D"'}
+2017-04-20 12:39:00,188 DEBUG Updated body: None
+2017-04-20 12:39:00,627 DEBUG "GET /1.1/search/tweets.json?q=Rocket+League&count=20&include_entities=false&lang=en HTTP/1.1" 200 7500
+2017-04-20 12:39:00,630 INFO Rocket League data Collected
+2017-04-20 12:39:00,641 INFO Rocket League data Scanned
+2017-04-20 12:39:00,947 INFO Rocket League data Recorded
+2017-04-20 12:39:00,947 INFO Waiting 900s before attempting Rocket League data collection
+2017-04-20 12:42:33,670 INFO Shutting Down
+2017-04-20 12:54:01,035 INFO Rocket League Thread Dead
+2017-04-20 13:08:58,106 INFO Overwatch Thread Dead
+2017-04-20 13:08:59,622 INFO Mass Effect Andromeda Thread Dead

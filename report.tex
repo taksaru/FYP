@@ -99,14 +99,14 @@
   \caption{First Gantt Chart Draft}
   \label{fig:tt1}
   \end{figure}
-  Project Planning began immediately after the project brief was accepted in October. As can be seen above \ref{fig:tt1} there an initial estimate of 6 weeks necessary for research and planning. With work to begin with the Twitter API towards the end of the sixth week. A five week period from the end of November through December was set aside to allow time for the Christmas Exams as well as the Christmas break. Work on interfacing with the API was to resume immediately after New Years and work on the text analysis was to begin around the same time. Testing on various small project elements was to take place throughout development from assessing Python Libraries for Twitter to resting more efficient means of Text Analysis.
+  Project Planning began immediately after the project brief was accepted in October. As can be seen above in Figure \ref{fig:tt1} there an initial estimate of 6 weeks necessary for research and planning. With work to begin with the Twitter API towards the end of the sixth week. A five week period from the end of November through December was set aside to allow time for the Christmas Exams as well as the Christmas break. Work on interfacing with the API was to resume immediately after New Years and work on the text analysis was to begin around the same time. Testing on various small project elements was to take place throughout development from assessing Python Libraries for Twitter to resting more efficient means of Text Analysis.
   \par
   \begin{figure}[h]
   \includegraphics[width=\textwidth]{tt2}
   \caption{Final Gantt Chart Draft}
   \label{fig:tt2}
   \end{figure}
-  As is often the case in any planned project, the initial plan was the first thing to go. Early Twitter API test went so well I began work on a Python interface a week earlier than planned. After Christmas I managed to finish up work on my TwitterSearch\cite{TwitterSearch} wrapper module and began work on the Text Analysis. Before Christmas I had done research into different Text Analysis Software such as Natural Language Toolkit or NLTK\ref{NTLK} and began with a simple unweighted words scan. Comparing words to items in predetermined .txt files containing positive and negative words. It was slow and clunky, but functional. Satisfied for now I began planning the Database Structure.
+  As is often the case in any planned project, the initial plan was the first thing to go. Early Twitter API test went so well I began work on a Python interface a week earlier than planned. After Christmas I managed to finish up work on my TwitterSearch\cite{TwitterSearch} wrapper module and began work on the Text Analysis. Before Christmas I had done research into different Text Analysis Software such as Natural Language Toolkit or NLTK\cite{NTLK} and began with a simple unweighted words scan. Comparing words to items in predetermined .txt files containing positive and negative words. It was slow and clunky, but functional. Satisfied for now I began planning the Database Structure.
   \clearpage
   \section{Disecting Tweet Structure}
   Early work in development began by dumping collected tweets in a JSON\cite{JSON} file. Each tweet consisted of nearly 200 different tags and values. As a result parsing the usable information from the structure proved to be difficult as large amounts of data were repeated. Furthermore several of the tags used were depreciated and served no purpose whatsoever. 
@@ -122,7 +122,7 @@
   \section{Test Data Collection}
   Following the database restructuring I continued work on the Text Analysis, however I found myself lacking in ideas for usable topics and data. In the end I decided to build a several large collections of Tweets from the previous 3 U.S. Presidential Elections. I ran a request through the official API but discovered that it limited returned Tweets to those less than a week old. I began research and found an unofficial library that scraped data directly from the Twitter Advanced Search Browser API. I began with a quick collection of ten thousand tweets from the thirty days prior to the actual election day for each candidate. (Barack Obama twice). At the suggestion of a fellow student I also pulled tweets on Sarah Palin for the 2008 U.S. Presidential Election as she was just as large a point of discussion as John McCain. This process ultimately left me with about sixty thousand tweets. However, disappointed in the variety of data I wrote a small script to pull up to ten thousand tweets from each day up to thirty one days prior to the actual election. 
   \par
-  This process ultimately led to several complications. The largest of which was a combination of Twitter’s API and the unofficial Python library. As I was making multiple requests to the API for large volumes of data, if I made too many my access to the API would be suspended by Twitter. Secondly the library was designed such that if a request to the API was rejected it would exit Python, breaking any loop in which I attempted use for the process. Ultimately I changed the library myself to remove this feature and successfully created a functional script. The script left an hour wait in between API calls as well as in the event of an API rejection. After a little under two weeks and minimal API rejections I finally had a satisfactory testing dataset.
+  This process ultimately led to several complications. The largest of which was a combination of Twitter’s public API and the unofficial Python library. As I was making multiple requests to the API for large volumes of data, if I made too many my access to the API would be suspended by Twitter. Secondly the library was designed such that if a request to the API was rejected it would exit Python, breaking any loop in which I attempted use for the process. Ultimately I changed the library myself to remove this feature and successfully created a functional script. The script left an hour wait in between API calls as well as in the event of an API rejection. After a little under two weeks and minimal API rejections I finally had a satisfactory testing dataset.
   \clearpage
   \section{Text Analysis}
   \begin{figure}[!htb]
@@ -145,7 +145,7 @@
     \[rating \times \frac{retweets}{avg(retweets)}\]
     \caption{Current Weight Function}
   \end{wrapfigure}
-  At present there is a bare minimum weight function built into the interface that weighs the overall rating of a tweet based on its retweets in comparison to the daily or hourly average, depending on data grouping.
+  At present there is a bare minimum weight function built into the interface that weighs the overall rating of a tweet based on its retweets in comparison to the daily or hourly average, depending on data grouping. Theoretically the system could group down to individual seconds however this is both impractical and inefficient.
   \par
   \begin{figure}[h]
     \centering
@@ -170,7 +170,7 @@
   \section{Data Collection}
   As a proof of concept I decided early on to test the text analysis on previous U.S. Presidential Elections. however as discussed in Implementation. This proved to be one of the most time consuming and tedious points in development. As discussed in Implementation.
     \subsection{Twitter Itself}
-    Throughout development Twitter itself proved to be the largest bottleneck. The official API only allows access to data less than a week old and limits individual request to 100 individual tweets. On top of this there are additional limits on how many request can be made from a developer and/or IP address\cite{TwitterAPILimits}. One of the largest delays in the project’s overall development was the time spent collecting data from the 2008, 2012 and 2016 elections as I had to use an unofficial library to scrape the data. This was both inefficient and was contrary to one of my open source development restriction. However I ignored this as the library itself used an MIT License\cite{MITLicense} and was not a part of the final project. 
+    Throughout development Twitter itself proved to be the largest bottleneck. The official public API only allows access to data less than a week old and limits individual request to 100 individual tweets with no possible way of gaining greater access. On top of this there are additional limits on how many request can be made from a developer and/or IP address\cite{TwitterAPILimits}. One of the largest delays in the project’s overall development was the time spent collecting data from the 2008, 2012 and 2016 elections as I had to use an unofficial library to scrape the data. This was both inefficient and was contrary to one of my open source development restriction. However I ignored this as the library itself used an MIT License\cite{MITLicense} and was not a part of the final project. 
     \subsection{Altered Library}
     During Data Collection I had to alter the code of this library myself. This was to allow for pausing of the collection script in the event of an API rejection. The data I received from this library was also inefficient as it lacked many of the more specialised tags included in officially retrieved twitter data, such as the entities tags which would have allowed for faster retrieval of mentions, hashtags and most importantly links. Due to this limitation I was forced to greatly reduce the planned functionality of the text cleaning module. I had initially planned on having the module access the link and replace the link with the title of the web page within the text body of the tweet.
   \section{Unimplemented Features}
@@ -204,7 +204,20 @@
     \caption{Graphed Presidential Elections}
     \label{fig:ex}
   \end{figure}
-  As shown above in Figure \ref{fig:ex} the finalized analysis was reasonably usable, however the finalized states of the topics shown in Figure\ref{t:1} show that the accuracy of the analysis could still be greatly improved upon.
+  As shown above in Figure \ref{fig:ex} the finalized analysis was reasonably usable, however the finalized states of the topics shown in Table \ref{t:1} show that the accuracy of the analysis could still be greatly improved upon.
+  \par
+  Thankfully other forms of analysis and aggregation are fully functional and can be used for any form of general analysis, as can be seen in Table \ref{t:3}, Table \ref{t:4} and Table \ref{t:5}.
+  \section{Efficiency}
+  Efficiency of execution is one of the few categories with which I am satisfied with my project in its current state. As shown below in Figure \ref{t:2} the a full database rescan capable of complete execution in less than ten minutes, as time passed this only improved even as the total count of tweets neared one million.
+  \section{Again?}
+    Following the completion of my final exams I plan to rebuild the entire project from the ground up. Improvements to be implemented include the aforementioned improvements by use of Twitter entities\cite{TwitterEntities} as well as moving development from Python 2.7 to Python 3.6. During the Final Year Project open day, Python itself crashed on two occasion for unknown reasons. Personally I suspect this was due to a lack of a queue for the Threads to interact with the database. As the day wore on I added several clients as a means of demonstrating the functionality of the Command Line Interface. I suspect that due to Threading and the unfortunate lack of foresight to implement a Queue, concurrent database calls caused the crash
+    \par
+    One of the larger areas to explore upon revisiting this project will be the idea of varying the weights and meanings of words within certain topics of discussion. Personally I believe this kind of implementation could push the project to new heights although it will ultimately prove to be the most time-intensive implementation, the original reason I ignored the premise in development.
+  \section{Final Thoughts}
+    Although displeased with the state and functionality of the final project I am glad that I undertook it. My knowledge in data handling and analysis has been vastly improved and I am more eager than ever to delve deeper into this engaging topic. In terms of programming and development skills I do feel more confident in my abilities owing to some of the more complicated libraries and functions I built throughout development. I hope to improve upon this project further, one day analyzing with far greater accuracy.
+
+\chapter{Appendix}
+  \section{Compiled Data on Presidential Candidates}
   \begin{figure}[h]
     \centering
     \begin{tabular}{|c||c|c|c|c|}
@@ -230,8 +243,362 @@
     \caption{Final State for Collected Election Data}
     \label{t:1}
   \end{figure}
-  \section{Efficiency}
-  Efficiency of execution is one of the few categories with which I am satisfied with my project in its current state. As shown below in Figure \ref{t:2} the a full database rescan capable of complete execution in less than ten minutes, as time passed this only improved even as the total count of tweets neared one million.
+  \begin{table}[ht]
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: obama1} \\
+      \hline
+      \hline
+      Word & Occurrences \\ 
+      \hline
+      mccain & 39461 \\
+      barack & 19328 \\
+      campaign & 9684 \\
+      people & 5570 \\
+      election & 4540 \\
+      president & 4523 \\
+      debate & 4421 \\
+      mccains & 3830 \\
+      supporters & 3716 \\
+      presidential & 3664 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: mccain} \\
+      \hline
+      \hline
+      Word & Occurrences \\ [0.5ex]
+      \hline
+      mccain & 203478 \\
+      campaign & 15140 \\
+      debate & 6660 \\
+      obamas & 6208 \\
+      supporters & 5868 \\
+      people & 5324 \\
+      barack & 5050 \\
+      republican & 4452 \\
+      really & 4222 \\
+      election & 4214 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: obama2} \\
+      \hline
+      Word & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      romney & 57650 \\
+      president & 30658 \\
+      barack & 21262 \\
+      debate & 19731 \\
+      obama & 15937 \\
+      campaign & 11248 \\
+      benghazi & 9430 \\
+      election & 7685 \\
+      voting & 6968 \\
+      people & 6934 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: romney} \\
+      \hline
+      Word & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      romney & 345644 \\
+      debate & 21666 \\
+      president & 19765 \\
+      campaign & 13014 \\
+      voting & 12786 \\
+      election & 9442 \\
+      people & 9096 \\
+      presidential & 8282 \\
+      barack & 7458 \\
+      republican & 6843 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: trump} \\
+      \hline
+      Word & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      donald & 53559 \\
+      clinton &  29845 \\
+      hillary & 28265 \\
+      trump & 14318 \\
+      election & 10645 \\
+      people & 9977 \\
+      supporters & 9955 \\
+      campaign & 9719 \\
+      debate & 9083 \\
+      president &  8339 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Words: clinton} \\
+      \hline
+      Word & Occurrences \\ [0.5ex]
+      \hline
+      clinton &  401705 \\
+      hillary & 134831 \\
+      campaign & 30937 \\
+      emails & 29404 \\
+      wikileaks & 27312 \\
+      donald & 20127 \\
+      foundation & 18222 \\
+      debate & 15688 \\
+      election & 12302 \\
+      president &  11445 \\
+      \hline
+    \end{tabular}
+    \caption{10 Most Common Words for Presidential Candidates}
+    \label{t:3}
+  \end{table}
+  \begin{table}[ht]
+    \centering
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: obama1} \\
+      \hline
+      \hline
+      Tag & Occurrences \\ 
+      \hline
+      obama & 981 \\
+      debate08 & 225 \\
+      mccain & 209 \\
+      eleicoes & 171 \\
+      current & 116 \\
+      acorn & 99 \\
+      litf08 & 75 \\
+      voterfraud & 59 \\
+      palin & 56 \\
+      nashdebate & 53 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: mccain} \\
+      \hline
+      \hline
+      Tag & Occurrences \\ [0.5ex]
+      \hline
+      mccain & 476 \\
+      debate08 & 413 \\
+      johnmccainknows & 381 \\
+      obama & 231 \\
+      litf08 & 135 \\
+      eleicoes & 125 \\
+      palin & 80 \\
+      current & 66 \\
+      election & 54 \\
+      robos & 43 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: obama2} \\
+      \hline
+      Tag & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      obama & 15931 \\
+      romney & 3902 \\
+      obama2012 & 1710 \\
+      benghazi & 1582 \\
+      teaparty & 1382 \\
+      romneyryan2012 & 1139 \\
+      sandy & 982 \\
+      election2012 & 854 \\
+      debate & 806 \\
+      lnyhbt & 501 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: romney} \\
+      \hline
+      Tag & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      romney & 15210 \\
+      obama & 5445 \\
+      teaparty & 1831 \\
+      obama2012 & 1762 \\
+      romneyryan2012 & 1504 \\
+      sensata & 1495 \\
+      debate & 1118 \\
+      election2012 & 1039 \\
+      sandy & 921 \\
+      republican & 825 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: trump} \\
+      \hline
+      Tag & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      trump & 14305 \\
+      hillary & 1476 \\
+      election2016 & 1374 \\
+      debate & 1299 \\
+      trumptrain & 1190 \\
+      draintheswamp & 1134 \\
+      nevertrump & 1102 \\
+      imwithher & 1097 \\
+      clinton & 1029 \\
+      trumpdumb & 805 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{10 Most Common Tags: clinton} \\
+      \hline
+      Tag & Occurrences \\ [0.5ex]
+      \hline
+      clinton &  6625 \\
+      trump & 3656 \\
+      wikileaks & 1924 \\
+      hillary & 1792 \\
+      debate & 1469 \\
+      imwithher & 1125 \\
+      draintheswamp & 1026 \\
+      election2016 & 908 \\
+      neverhillary & 845 \\
+      hillaryclinton & 807 \\
+      \hline
+    \end{tabular}
+    \caption{10 Most Common Tags for Presidential Candidates}
+    \label{t:4}
+  \end{table}
+  \clearpage
+  \begin{table}[ht]
+    \centering
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: obama1} \\
+      \hline
+      \hline
+      Mention & Occurrences \\ 
+      \hline
+      ricksanchezcnn & 680 \\
+      obama & 161 \\
+      davejmatthews & 151 \\
+      donlemoncnn & 134 \\
+      nobama4thismama & 111 \\
+      barackobama & 100 \\
+      littlebytesnews & 95 \\
+      larrymwalkerjr & 80 \\
+      spreadthewealth & 76 \\
+      maddow & 75 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: mccain} \\
+      \hline
+      \hline
+      Mention & Occurrences \\ [0.5ex]
+      \hline
+      ricksanchezcnn & 1168 \\
+      donlemoncnn & 215 \\
+      littlebytesnews & 133 \\
+      davejmatthews & 131 \\
+      nobama4thismama & 110 \\
+      maddow & 96 \\
+      queenofspain & 79 \\
+      michaeleast & 76 \\
+      barackobama & 73 \\
+      mccain & 70 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: obama2} \\
+      \hline
+      Mention & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      barackobama & 2426 \\
+      mittromney & 1382 \\
+      youtube & 1148 \\
+      breitbartnews & 1043 \\
+      sharethis & 726 \\
+      theblaze & 708 \\
+      westjournalism & 687 \\
+      obama & 626 \\
+      realdonaldtrump & 517 \\
+      yahoonews & 468 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: romney} \\
+      \hline
+      Mention & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      barackobama & 2316 \\
+      mittromney & 1722 \\
+      youtube & 1455 \\
+      thinkprogress & 957 \\
+      huffpostpol & 942 \\
+      dailykos & 866 \\
+      breitbartnews & 750 \\
+      politicususa & 718 \\
+      sharethis & 658 \\
+      huffingtonpost & 656 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: trump} \\
+      \hline
+      Mention & Occurrences \\ [0.5ex]
+      \hline
+      \hline
+      realdonaldtrump & 8410 \\
+      youtube & 3930 \\
+      hillaryclinton & 3433 \\
+      foxnews & 1800 \\
+      huffpostpol & 1145 \\
+      kellyannepolls & 1021 \\
+      trump & 916 \\
+      c0nvey & 911 \\
+      nytimes & 770 \\
+      msnbc & 759 \\
+      \hline
+    \end{tabular}\hfill%
+    \begin{tabular}[t]{|l|c|}
+      \hline
+      \multicolumn{2}{|c|}{Top 10 Mentions: clinton} \\
+      \hline
+      Mention & Occurrences \\ [0.5ex]
+      \hline
+      youtube & 8985 \\
+      realdonaldtrump & 6134 \\
+      c0nvey & 4965 \\
+      hillaryclinton & 3363 \\
+      foxnews & 2485 \\
+      dailycaller & 1645 \\
+      breitbartnews & 1291 \\
+      wikileaks & 1193 \\
+      nytimes & 918 \\
+      cnnpolitics & 909 \\
+      \hline
+    \end{tabular}
+    \caption{10 Most Common Mentions for Presidential Candidates}
+    \label{t:5}
+  \end{table}
+  \clearpage
+  \section{Text Analysis Performance}
   \begin{figure}[h]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -282,15 +649,8 @@
     \caption{Execution Times for Total Database Rescans}
     \label{t:2}
   \end{figure}
-  \section{Again?}
-    Following the completion of my final exams I plan to rebuild the entire project from the ground up. Improvements to be implemented include the aforementioned improvements by use of Twitter entities\cite{TwitterEntities} as well as moving development from Python 2.7 to Python 3.6. During the Final Year Project open day, Python itself crashed on two occasion for unknown reasons. Personally I suspect this was due to a lack of a queue for the Threads to interact with the database. As the day wore on I added several clients as a means of demonstrating the functionality of the Command Line Interface. I suspect that some of the Threads attempted to call on the database class at the same time. 
-    \par
-    One of the larger areas to explore upon revisiting this project will be the idea of varying the weights and meanings of words within certain topics of discussion. Personally I believe this kind of implementation could push the project to new heights although it will ultimately prove to be the most time-intensive implementation, the original reason I ignored the premise in development.
-  \section{Final Thoughts}
-    Although displeased with the state and functionality of the final project I am glad that I undertook it. My knowledge in data handling and analysis has been vastly improved and I am more eager than ever to delve deeper into this engaging topic. In terms of programming and development skills I do feel more confident in my abilities owing to some of the more complicated libraries and functions I built throughout development. I hope to improve upon this project further, one day analyzing with pinpoint accuraccy.
 
-
-\begin{thebibliography}{12}
+\begin{thebibliography}{14}
 \bibitem{Python2Docs}
 Python 2.7 Documentation
 \texttt{https://docs.python.org/2/}
@@ -329,7 +689,10 @@ MySQL
 \texttt{https://www.mysql.com/}
 \bibitem{MongoDB}
 MongoDB
-\bibitem{https://www.mongodb.com/}
+\texttt{https://www.mongodb.com/}
+\bibitem{LatexAndFriends}
+Marc van Dongen, 
+\textit{\LaTeX And Friends}.
 \end{thebibliography}
 
 \end{document}

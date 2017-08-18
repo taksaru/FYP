@@ -339,4 +339,36 @@ print data
 '''
 
 db = MyDB.MyDB()
-print db.getData('mccain', '', '')
+y = db.getMentions('obama1', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
+
+print ''
+
+y = db.getMentions('mccain', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
+
+print ''
+
+y = db.getMentions('obama2', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
+
+print ''
+
+y = db.getMentions('romney', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
+
+print ''
+
+y = db.getMentions('trump', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
+
+print ''
+
+y = db.getMentions('clinton', 10)
+for x in y:
+  print "%s & %s \\\\" % (x['mention'],x['count'])
